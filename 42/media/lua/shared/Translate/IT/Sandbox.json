@@ -1,0 +1,36 @@
+{
+    "Sandbox_TheIntruder": "The Intruder",
+
+    "Sandbox_TheIntruder_MaxIntruders": "Intrusi massimi",
+    "Sandbox_TheIntruder_MaxIntruders_tooltip": "Quanti intrusi possono essere presenti sul server contemporaneamente.",
+
+    "Sandbox_TheIntruder_SpawnDistance": "Distanza di comparsa (caselle)",
+    "Sandbox_TheIntruder_SpawnDistance_tooltip": "A quale distanza da un giocatore normale compare un intruso.",
+
+    "Sandbox_TheIntruder_RespawnCooldown": "Tempo di recupero prima di tornare (secondi)",
+    "Sandbox_TheIntruder_RespawnCooldown_tooltip": "Ritardo prima che un intruso eliminato possa attaccare di nuovo. 0 significa nessun ritardo.",
+
+    "Sandbox_TheIntruder_KitMelee": "Arma da mischia",
+    "Sandbox_TheIntruder_KitMelee_tooltip": "Arma da mischia data all'intruso alla comparsa.",
+    "Sandbox_TheIntruder_KitMelee_option1": "Nessuna",
+    "Sandbox_TheIntruder_KitMelee_option2": "Casuale",
+    "Sandbox_TheIntruder_KitMelee_option3": "Mazza da baseball",
+    "Sandbox_TheIntruder_KitMelee_option4": "Coltello da caccia",
+    "Sandbox_TheIntruder_KitMelee_option5": "Piede di porco",
+
+    "Sandbox_TheIntruder_KitBag": "Borsa",
+    "Sandbox_TheIntruder_KitBag_tooltip": "Borsa data all'intruso alla comparsa.",
+    "Sandbox_TheIntruder_KitBag_option1": "Nessuna",
+    "Sandbox_TheIntruder_KitBag_option2": "Zaino da scuola",
+    "Sandbox_TheIntruder_KitBag_option3": "Borsone",
+    "Sandbox_TheIntruder_KitBag_option4": "Grande zaino da trekking",
+
+    "Sandbox_TheIntruder_KitFood": "Quantità di scatolette",
+    "Sandbox_TheIntruder_KitFood_tooltip": "Quante scatolette di cibo ha l'intruso all'inizio.",
+
+    "Sandbox_TheIntruder_KitFirstAid": "Kit di pronto soccorso",
+    "Sandbox_TheIntruder_KitFirstAid_tooltip": "Dai all'intruso alcune bende alla comparsa.",
+
+    "Sandbox_TheIntruder_KitCustomItems": "Oggetti aggiuntivi",
+    "Sandbox_TheIntruder_KitCustomItems_tooltip": "ID di oggetti aggiuntivi separati da punto e virgola, ad esempio Base.Pistol;Base.Bullets9mm"
+}

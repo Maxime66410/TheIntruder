@@ -1,0 +1,36 @@
+{
+    "Sandbox_TheIntruder": "The Intruder",
+
+    "Sandbox_TheIntruder_MaxIntruders": "Maximale Eindringlinge",
+    "Sandbox_TheIntruder_MaxIntruders_tooltip": "Wie viele Eindringlinge gleichzeitig auf dem Server sein dürfen.",
+
+    "Sandbox_TheIntruder_SpawnDistance": "Spawn-Entfernung (Felder)",
+    "Sandbox_TheIntruder_SpawnDistance_tooltip": "Wie nah an einem normalen Spieler ein Eindringling erscheint.",
+
+    "Sandbox_TheIntruder_RespawnCooldown": "Wiederkehr-Abklingzeit (Sekunden)",
+    "Sandbox_TheIntruder_RespawnCooldown_tooltip": "Verzögerung, bevor ein getöteter Eindringling erneut angreifen kann. 0 bedeutet keine Verzögerung.",
+
+    "Sandbox_TheIntruder_KitMelee": "Nahkampfwaffe",
+    "Sandbox_TheIntruder_KitMelee_tooltip": "Nahkampfwaffe, die der Eindringling beim Spawn erhält.",
+    "Sandbox_TheIntruder_KitMelee_option1": "Keine",
+    "Sandbox_TheIntruder_KitMelee_option2": "Zufällig",
+    "Sandbox_TheIntruder_KitMelee_option3": "Baseballschläger",
+    "Sandbox_TheIntruder_KitMelee_option4": "Jagdmesser",
+    "Sandbox_TheIntruder_KitMelee_option5": "Brecheisen",
+
+    "Sandbox_TheIntruder_KitBag": "Tasche",
+    "Sandbox_TheIntruder_KitBag_tooltip": "Tasche, die der Eindringling beim Spawn erhält.",
+    "Sandbox_TheIntruder_KitBag_option1": "Keine",
+    "Sandbox_TheIntruder_KitBag_option2": "Schulranzen",
+    "Sandbox_TheIntruder_KitBag_option3": "Seesack",
+    "Sandbox_TheIntruder_KitBag_option4": "Großer Wanderrucksack",
+
+    "Sandbox_TheIntruder_KitFood": "Anzahl Konserven",
+    "Sandbox_TheIntruder_KitFood_tooltip": "Wie viele Konserven der Eindringling zu Beginn hat.",
+
+    "Sandbox_TheIntruder_KitFirstAid": "Erste-Hilfe-Set",
+    "Sandbox_TheIntruder_KitFirstAid_tooltip": "Gib dem Eindringling beim Spawn ein paar Verbände.",
+
+    "Sandbox_TheIntruder_KitCustomItems": "Zusätzliche Gegenstände",
+    "Sandbox_TheIntruder_KitCustomItems_tooltip": "Zusätzliche Item-IDs, durch Semikolon getrennt, z. B. Base.Pistol;Base.Bullets9mm"
+}

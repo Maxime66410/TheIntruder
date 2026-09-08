@@ -1,0 +1,38 @@
+{
+    "IGUI_TheIntruder_YouAre": "你是入侵者",
+    "IGUI_TheIntruder_Alert": "有入侵者潜入了",
+
+    "IGUI_TheIntruder_Reason_Closed": "房主已关闭入侵。",
+    "IGUI_TheIntruder_Reason_Banned": "你已被禁止在此入侵。",
+    "IGUI_TheIntruder_Reason_Full": "入侵名额已满。",
+    "IGUI_TheIntruder_Reason_Cooldown": "你已死亡。请在 %1 秒后再来。",
+    "IGUI_TheIntruder_Reason_Kicked": "你已被房主踢出。",
+
+    "IGUI_TheIntruder_Opening": "正在打开……",
+    "IGUI_TheIntruder_Scanning": "正在搜索公共服务器……",
+    "IGUI_TheIntruder_ShowAll": "显示所有服务器（调试）",
+    "IGUI_TheIntruder_Direct": "直连：",
+    "IGUI_TheIntruder_Refresh": "刷新",
+    "IGUI_TheIntruder_EditProfile": "编辑档案",
+    "IGUI_TheIntruder_Join": "加入",
+    "IGUI_TheIntruder_Close": "关闭",
+    "IGUI_TheIntruder_JoinByIP": "通过 IP 加入",
+    "IGUI_TheIntruder_SelectFirst": "请先选择一个服务器",
+    "IGUI_TheIntruder_EnterIP": "请输入 IP",
+    "IGUI_TheIntruder_SetProfileFirst": "请先设置你的档案（编辑档案）",
+    "IGUI_TheIntruder_Scanned": "已扫描 %1 个服务器，找到 %2 个带 The Intruder",
+    "IGUI_TheIntruder_ShowingAll": "显示全部 %1 个公共服务器（%2 个带 The Intruder）",
+
+    "IGUI_TheIntruder_Name": "名称",
+    "IGUI_TheIntruder_Password": "密码",
+    "IGUI_TheIntruder_PasswordHint": "留空则使用你的 Steam ID 作为密码。",
+    "IGUI_TheIntruder_UseRelay": "使用 Steam 中继（直连失败时启用）",
+    "IGUI_TheIntruder_Save": "保存",
+    "IGUI_TheIntruder_Cancel": "取消",
+
+    "IGUI_TheIntruder_HostTitle": "入侵者主机控制",
+    "IGUI_TheIntruder_OpeningOn": "开放：开",
+    "IGUI_TheIntruder_OpeningOff": "开放：关",
+    "IGUI_TheIntruder_Kick": "踢出",
+    "IGUI_TheIntruder_Ban": "封禁"
+}

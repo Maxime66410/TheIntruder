@@ -1,0 +1,38 @@
+{
+    "IGUI_TheIntruder_YouAre": "DU BIST DER EINDRINGLING",
+    "IGUI_TheIntruder_Alert": "EIN EINDRINGLING IST EINGEDRUNGEN",
+
+    "IGUI_TheIntruder_Reason_Closed": "Invasion vom Host geschlossen.",
+    "IGUI_TheIntruder_Reason_Banned": "Du bist hier vom Eindringen verbannt.",
+    "IGUI_TheIntruder_Reason_Full": "Die Invasion ist voll.",
+    "IGUI_TheIntruder_Reason_Cooldown": "Du bist gestorben. Komm in %1s wieder.",
+    "IGUI_TheIntruder_Reason_Kicked": "Du wurdest vom Host gekickt.",
+
+    "IGUI_TheIntruder_Opening": "Öffne...",
+    "IGUI_TheIntruder_Scanning": "Öffentliche Server werden durchsucht...",
+    "IGUI_TheIntruder_ShowAll": "Alle Server anzeigen (Debug)",
+    "IGUI_TheIntruder_Direct": "Direkt:",
+    "IGUI_TheIntruder_Refresh": "Aktualisieren",
+    "IGUI_TheIntruder_EditProfile": "Profil bearbeiten",
+    "IGUI_TheIntruder_Join": "Beitreten",
+    "IGUI_TheIntruder_Close": "Schließen",
+    "IGUI_TheIntruder_JoinByIP": "Per IP beitreten",
+    "IGUI_TheIntruder_SelectFirst": "Wähle zuerst einen Server",
+    "IGUI_TheIntruder_EnterIP": "Gib eine IP ein",
+    "IGUI_TheIntruder_SetProfileFirst": "Richte zuerst dein Profil ein (Profil bearbeiten)",
+    "IGUI_TheIntruder_Scanned": "%1 Server durchsucht, %2 mit The Intruder gefunden",
+    "IGUI_TheIntruder_ShowingAll": "Zeige alle %1 öffentlichen Server (%2 mit The Intruder)",
+
+    "IGUI_TheIntruder_Name": "Name",
+    "IGUI_TheIntruder_Password": "Passwort",
+    "IGUI_TheIntruder_PasswordHint": "Leer lassen, um deine Steam-ID als Passwort zu verwenden.",
+    "IGUI_TheIntruder_UseRelay": "Steam-Relay verwenden (falls direkte Verbindung fehlschlägt)",
+    "IGUI_TheIntruder_Save": "Speichern",
+    "IGUI_TheIntruder_Cancel": "Abbrechen",
+
+    "IGUI_TheIntruder_HostTitle": "Eindringling-Steuerung",
+    "IGUI_TheIntruder_OpeningOn": "Öffnung: AN",
+    "IGUI_TheIntruder_OpeningOff": "Öffnung: AUS",
+    "IGUI_TheIntruder_Kick": "Kicken",
+    "IGUI_TheIntruder_Ban": "Bannen"
+}

@@ -1,0 +1,38 @@
+{
+    "IGUI_TheIntruder_YouAre": "ВЫ — ЧУЖАК",
+    "IGUI_TheIntruder_Alert": "ЧУЖАК ПРОНИК В ИГРУ",
+
+    "IGUI_TheIntruder_Reason_Closed": "Вторжение закрыто хостом.",
+    "IGUI_TheIntruder_Reason_Banned": "Вам запрещено вторгаться сюда.",
+    "IGUI_TheIntruder_Reason_Full": "Мест для вторжения нет.",
+    "IGUI_TheIntruder_Reason_Cooldown": "Вы погибли. Возвращайтесь через %1 с.",
+    "IGUI_TheIntruder_Reason_Kicked": "Вас исключил хост.",
+
+    "IGUI_TheIntruder_Opening": "Открытие...",
+    "IGUI_TheIntruder_Scanning": "Поиск публичных серверов...",
+    "IGUI_TheIntruder_ShowAll": "Показать все серверы (отладка)",
+    "IGUI_TheIntruder_Direct": "Напрямую:",
+    "IGUI_TheIntruder_Refresh": "Обновить",
+    "IGUI_TheIntruder_EditProfile": "Изменить профиль",
+    "IGUI_TheIntruder_Join": "Присоединиться",
+    "IGUI_TheIntruder_Close": "Закрыть",
+    "IGUI_TheIntruder_JoinByIP": "Войти по IP",
+    "IGUI_TheIntruder_SelectFirst": "Сначала выберите сервер",
+    "IGUI_TheIntruder_EnterIP": "Введите IP",
+    "IGUI_TheIntruder_SetProfileFirst": "Сначала настройте профиль (Изменить профиль)",
+    "IGUI_TheIntruder_Scanned": "Просканировано серверов: %1, с The Intruder: %2",
+    "IGUI_TheIntruder_ShowingAll": "Показано публичных серверов: %1 (с The Intruder: %2)",
+
+    "IGUI_TheIntruder_Name": "Имя",
+    "IGUI_TheIntruder_Password": "Пароль",
+    "IGUI_TheIntruder_PasswordHint": "Оставьте пустым, чтобы использовать ваш Steam ID как пароль.",
+    "IGUI_TheIntruder_UseRelay": "Использовать Steam relay (если прямое подключение не работает)",
+    "IGUI_TheIntruder_Save": "Сохранить",
+    "IGUI_TheIntruder_Cancel": "Отмена",
+
+    "IGUI_TheIntruder_HostTitle": "Управление вторжением",
+    "IGUI_TheIntruder_OpeningOn": "Открытие: ВКЛ",
+    "IGUI_TheIntruder_OpeningOff": "Открытие: ВЫКЛ",
+    "IGUI_TheIntruder_Kick": "Выгнать",
+    "IGUI_TheIntruder_Ban": "Забанить"
+}

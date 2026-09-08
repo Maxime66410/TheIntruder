@@ -1,0 +1,38 @@
+{
+    "IGUI_TheIntruder_YouAre": "DAVETSİZ MİSAFİR SENSİN",
+    "IGUI_TheIntruder_Alert": "BİR DAVETSİZ MİSAFİR SIZDI",
+
+    "IGUI_TheIntruder_Reason_Closed": "İstila ev sahibi tarafından kapatıldı.",
+    "IGUI_TheIntruder_Reason_Banned": "Buraya sızmanız yasaklandı.",
+    "IGUI_TheIntruder_Reason_Full": "İstila dolu.",
+    "IGUI_TheIntruder_Reason_Cooldown": "Öldünüz. %1sn sonra tekrar gelin.",
+    "IGUI_TheIntruder_Reason_Kicked": "Ev sahibi tarafından atıldınız.",
+
+    "IGUI_TheIntruder_Opening": "Açılıyor...",
+    "IGUI_TheIntruder_Scanning": "Herkese açık sunucular taranıyor...",
+    "IGUI_TheIntruder_ShowAll": "Tüm sunucuları göster (hata ayıklama)",
+    "IGUI_TheIntruder_Direct": "Doğrudan:",
+    "IGUI_TheIntruder_Refresh": "Yenile",
+    "IGUI_TheIntruder_EditProfile": "Profili düzenle",
+    "IGUI_TheIntruder_Join": "Katıl",
+    "IGUI_TheIntruder_Close": "Kapat",
+    "IGUI_TheIntruder_JoinByIP": "IP ile katıl",
+    "IGUI_TheIntruder_SelectFirst": "Önce bir sunucu seçin",
+    "IGUI_TheIntruder_EnterIP": "Bir IP girin",
+    "IGUI_TheIntruder_SetProfileFirst": "Önce profilinizi ayarlayın (Profili düzenle)",
+    "IGUI_TheIntruder_Scanned": "%1 sunucu tarandı, %2 tanesinde The Intruder bulundu",
+    "IGUI_TheIntruder_ShowingAll": "%1 herkese açık sunucu gösteriliyor (%2 tanesinde The Intruder)",
+
+    "IGUI_TheIntruder_Name": "İsim",
+    "IGUI_TheIntruder_Password": "Şifre",
+    "IGUI_TheIntruder_PasswordHint": "Steam ID'nizi şifre olarak kullanmak için boş bırakın.",
+    "IGUI_TheIntruder_UseRelay": "Steam relay kullan (doğrudan bağlantı başarısız olursa)",
+    "IGUI_TheIntruder_Save": "Kaydet",
+    "IGUI_TheIntruder_Cancel": "İptal",
+
+    "IGUI_TheIntruder_HostTitle": "Davetsiz Misafir Kontrolleri",
+    "IGUI_TheIntruder_OpeningOn": "Açılım: AÇIK",
+    "IGUI_TheIntruder_OpeningOff": "Açılım: KAPALI",
+    "IGUI_TheIntruder_Kick": "At",
+    "IGUI_TheIntruder_Ban": "Yasakla"
+}

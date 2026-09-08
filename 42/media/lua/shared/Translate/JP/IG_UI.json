@@ -1,0 +1,38 @@
+{
+    "IGUI_TheIntruder_YouAre": "あなたは侵入者だ",
+    "IGUI_TheIntruder_Alert": "侵入者が潜入した",
+
+    "IGUI_TheIntruder_Reason_Closed": "ホストが侵入を閉じました。",
+    "IGUI_TheIntruder_Reason_Banned": "ここでの侵入は禁止されています。",
+    "IGUI_TheIntruder_Reason_Full": "侵入枠がいっぱいです。",
+    "IGUI_TheIntruder_Reason_Cooldown": "あなたは死亡しました。%1秒後に戻ってください。",
+    "IGUI_TheIntruder_Reason_Kicked": "ホストにキックされました。",
+
+    "IGUI_TheIntruder_Opening": "開いています…",
+    "IGUI_TheIntruder_Scanning": "公開サーバーを検索中…",
+    "IGUI_TheIntruder_ShowAll": "すべてのサーバーを表示（デバッグ）",
+    "IGUI_TheIntruder_Direct": "直接接続：",
+    "IGUI_TheIntruder_Refresh": "更新",
+    "IGUI_TheIntruder_EditProfile": "プロフィール編集",
+    "IGUI_TheIntruder_Join": "参加",
+    "IGUI_TheIntruder_Close": "閉じる",
+    "IGUI_TheIntruder_JoinByIP": "IPで参加",
+    "IGUI_TheIntruder_SelectFirst": "先にサーバーを選択してください",
+    "IGUI_TheIntruder_EnterIP": "IPを入力してください",
+    "IGUI_TheIntruder_SetProfileFirst": "先にプロフィールを設定してください（プロフィール編集）",
+    "IGUI_TheIntruder_Scanned": "%1台のサーバーを検索、The Intruder は %2 台",
+    "IGUI_TheIntruder_ShowingAll": "公開サーバー %1 台を表示（The Intruder は %2 台）",
+
+    "IGUI_TheIntruder_Name": "名前",
+    "IGUI_TheIntruder_Password": "パスワード",
+    "IGUI_TheIntruder_PasswordHint": "空欄にすると Steam ID をパスワードとして使用します。",
+    "IGUI_TheIntruder_UseRelay": "Steamリレーを使用（直接接続が失敗する場合）",
+    "IGUI_TheIntruder_Save": "保存",
+    "IGUI_TheIntruder_Cancel": "キャンセル",
+
+    "IGUI_TheIntruder_HostTitle": "侵入者ホスト設定",
+    "IGUI_TheIntruder_OpeningOn": "開放：オン",
+    "IGUI_TheIntruder_OpeningOff": "開放：オフ",
+    "IGUI_TheIntruder_Kick": "キック",
+    "IGUI_TheIntruder_Ban": "BAN"
+}

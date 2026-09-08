@@ -1,0 +1,38 @@
+{
+    "IGUI_TheIntruder_YouAre": "JESTEŚ INTRUZEM",
+    "IGUI_TheIntruder_Alert": "INTRUZ PRZENIKNĄŁ DO GRY",
+
+    "IGUI_TheIntruder_Reason_Closed": "Inwazja zamknięta przez hosta.",
+    "IGUI_TheIntruder_Reason_Banned": "Masz zakaz inwazji tutaj.",
+    "IGUI_TheIntruder_Reason_Full": "Inwazja jest pełna.",
+    "IGUI_TheIntruder_Reason_Cooldown": "Zginąłeś. Wróć za %1s.",
+    "IGUI_TheIntruder_Reason_Kicked": "Zostałeś wyrzucony przez hosta.",
+
+    "IGUI_TheIntruder_Opening": "Otwieranie...",
+    "IGUI_TheIntruder_Scanning": "Skanowanie serwerów publicznych...",
+    "IGUI_TheIntruder_ShowAll": "Pokaż wszystkie serwery (debug)",
+    "IGUI_TheIntruder_Direct": "Bezpośrednio:",
+    "IGUI_TheIntruder_Refresh": "Odśwież",
+    "IGUI_TheIntruder_EditProfile": "Edytuj profil",
+    "IGUI_TheIntruder_Join": "Dołącz",
+    "IGUI_TheIntruder_Close": "Zamknij",
+    "IGUI_TheIntruder_JoinByIP": "Dołącz przez IP",
+    "IGUI_TheIntruder_SelectFirst": "Najpierw wybierz serwer",
+    "IGUI_TheIntruder_EnterIP": "Wprowadź IP",
+    "IGUI_TheIntruder_SetProfileFirst": "Najpierw skonfiguruj profil (Edytuj profil)",
+    "IGUI_TheIntruder_Scanned": "Przeskanowano %1 serwerów, znaleziono %2 z The Intruder",
+    "IGUI_TheIntruder_ShowingAll": "Pokazano %1 serwerów publicznych (%2 z The Intruder)",
+
+    "IGUI_TheIntruder_Name": "Nazwa",
+    "IGUI_TheIntruder_Password": "Hasło",
+    "IGUI_TheIntruder_PasswordHint": "Zostaw puste, aby użyć swojego Steam ID jako hasła.",
+    "IGUI_TheIntruder_UseRelay": "Użyj Steam relay (jeśli bezpośrednie połączenie zawodzi)",
+    "IGUI_TheIntruder_Save": "Zapisz",
+    "IGUI_TheIntruder_Cancel": "Anuluj",
+
+    "IGUI_TheIntruder_HostTitle": "Sterowanie hosta",
+    "IGUI_TheIntruder_OpeningOn": "Otwarcie: WŁ",
+    "IGUI_TheIntruder_OpeningOff": "Otwarcie: WYŁ",
+    "IGUI_TheIntruder_Kick": "Wyrzuć",
+    "IGUI_TheIntruder_Ban": "Zbanuj"
+}

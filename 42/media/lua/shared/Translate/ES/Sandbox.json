@@ -1,0 +1,36 @@
+{
+    "Sandbox_TheIntruder": "The Intruder",
+
+    "Sandbox_TheIntruder_MaxIntruders": "Máximo de intrusos",
+    "Sandbox_TheIntruder_MaxIntruders_tooltip": "Cuántos intrusos pueden estar en el servidor al mismo tiempo.",
+
+    "Sandbox_TheIntruder_SpawnDistance": "Distancia de aparición (casillas)",
+    "Sandbox_TheIntruder_SpawnDistance_tooltip": "A qué distancia de un jugador normal aparece un intruso.",
+
+    "Sandbox_TheIntruder_RespawnCooldown": "Tiempo de espera para reaparecer (segundos)",
+    "Sandbox_TheIntruder_RespawnCooldown_tooltip": "Retraso antes de que un intruso eliminado pueda volver a atacar. 0 significa sin retraso.",
+
+    "Sandbox_TheIntruder_KitMelee": "Arma cuerpo a cuerpo",
+    "Sandbox_TheIntruder_KitMelee_tooltip": "Arma cuerpo a cuerpo que recibe el intruso al aparecer.",
+    "Sandbox_TheIntruder_KitMelee_option1": "Ninguna",
+    "Sandbox_TheIntruder_KitMelee_option2": "Aleatoria",
+    "Sandbox_TheIntruder_KitMelee_option3": "Bate de béisbol",
+    "Sandbox_TheIntruder_KitMelee_option4": "Cuchillo de caza",
+    "Sandbox_TheIntruder_KitMelee_option5": "Palanca",
+
+    "Sandbox_TheIntruder_KitBag": "Mochila",
+    "Sandbox_TheIntruder_KitBag_tooltip": "Bolsa que recibe el intruso al aparecer.",
+    "Sandbox_TheIntruder_KitBag_option1": "Ninguna",
+    "Sandbox_TheIntruder_KitBag_option2": "Mochila escolar",
+    "Sandbox_TheIntruder_KitBag_option3": "Bolsa de viaje",
+    "Sandbox_TheIntruder_KitBag_option4": "Mochila de senderismo grande",
+
+    "Sandbox_TheIntruder_KitFood": "Cantidad de conservas",
+    "Sandbox_TheIntruder_KitFood_tooltip": "Cuántas latas de comida tiene el intruso al principio.",
+
+    "Sandbox_TheIntruder_KitFirstAid": "Botiquín",
+    "Sandbox_TheIntruder_KitFirstAid_tooltip": "Dar al intruso algunas vendas al aparecer.",
+
+    "Sandbox_TheIntruder_KitCustomItems": "Objetos adicionales",
+    "Sandbox_TheIntruder_KitCustomItems_tooltip": "IDs de objetos adicionales separados por punto y coma, por ejemplo Base.Pistol;Base.Bullets9mm"
+}

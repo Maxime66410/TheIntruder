@@ -1,0 +1,36 @@
+{
+    "Sandbox_TheIntruder": "The Intruder",
+
+    "Sandbox_TheIntruder_MaxIntruders": "侵入者の最大数",
+    "Sandbox_TheIntruder_MaxIntruders_tooltip": "サーバーに同時に存在できる侵入者の数。",
+
+    "Sandbox_TheIntruder_SpawnDistance": "出現距離（マス）",
+    "Sandbox_TheIntruder_SpawnDistance_tooltip": "侵入者が通常のプレイヤーからどれだけ近くに出現するか。",
+
+    "Sandbox_TheIntruder_RespawnCooldown": "再侵入のクールダウン（秒）",
+    "Sandbox_TheIntruder_RespawnCooldown_tooltip": "倒された侵入者が再び攻撃できるまでの遅延。0 は遅延なし。",
+
+    "Sandbox_TheIntruder_KitMelee": "近接武器",
+    "Sandbox_TheIntruder_KitMelee_tooltip": "出現時に侵入者へ渡される近接武器。",
+    "Sandbox_TheIntruder_KitMelee_option1": "なし",
+    "Sandbox_TheIntruder_KitMelee_option2": "ランダム",
+    "Sandbox_TheIntruder_KitMelee_option3": "野球バット",
+    "Sandbox_TheIntruder_KitMelee_option4": "ハンティングナイフ",
+    "Sandbox_TheIntruder_KitMelee_option5": "バール",
+
+    "Sandbox_TheIntruder_KitBag": "バッグ",
+    "Sandbox_TheIntruder_KitBag_tooltip": "出現時に侵入者へ渡されるバッグ。",
+    "Sandbox_TheIntruder_KitBag_option1": "なし",
+    "Sandbox_TheIntruder_KitBag_option2": "スクールバッグ",
+    "Sandbox_TheIntruder_KitBag_option3": "ダッフルバッグ",
+    "Sandbox_TheIntruder_KitBag_option4": "大型ハイキングバッグ",
+
+    "Sandbox_TheIntruder_KitFood": "缶詰の数",
+    "Sandbox_TheIntruder_KitFood_tooltip": "侵入者が最初に持つ缶詰食品の数。",
+
+    "Sandbox_TheIntruder_KitFirstAid": "救急セット",
+    "Sandbox_TheIntruder_KitFirstAid_tooltip": "出現時に侵入者へ包帯を渡す。",
+
+    "Sandbox_TheIntruder_KitCustomItems": "追加アイテム",
+    "Sandbox_TheIntruder_KitCustomItems_tooltip": "セミコロンで区切った追加アイテムID。例: Base.Pistol;Base.Bullets9mm"
+}

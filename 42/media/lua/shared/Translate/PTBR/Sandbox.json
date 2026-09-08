@@ -1,0 +1,36 @@
+{
+    "Sandbox_TheIntruder": "The Intruder",
+
+    "Sandbox_TheIntruder_MaxIntruders": "Máximo de invasores",
+    "Sandbox_TheIntruder_MaxIntruders_tooltip": "Quantos invasores podem estar no servidor ao mesmo tempo.",
+
+    "Sandbox_TheIntruder_SpawnDistance": "Distância de surgimento (blocos)",
+    "Sandbox_TheIntruder_SpawnDistance_tooltip": "A que distância de um jogador normal um invasor surge.",
+
+    "Sandbox_TheIntruder_RespawnCooldown": "Tempo de espera para voltar (segundos)",
+    "Sandbox_TheIntruder_RespawnCooldown_tooltip": "Atraso antes que um invasor eliminado possa atacar de novo. 0 significa sem atraso.",
+
+    "Sandbox_TheIntruder_KitMelee": "Arma corpo a corpo",
+    "Sandbox_TheIntruder_KitMelee_tooltip": "Arma corpo a corpo dada ao invasor ao surgir.",
+    "Sandbox_TheIntruder_KitMelee_option1": "Nenhuma",
+    "Sandbox_TheIntruder_KitMelee_option2": "Aleatória",
+    "Sandbox_TheIntruder_KitMelee_option3": "Taco de beisebol",
+    "Sandbox_TheIntruder_KitMelee_option4": "Faca de caça",
+    "Sandbox_TheIntruder_KitMelee_option5": "Pé de cabra",
+
+    "Sandbox_TheIntruder_KitBag": "Bolsa",
+    "Sandbox_TheIntruder_KitBag_tooltip": "Bolsa dada ao invasor ao surgir.",
+    "Sandbox_TheIntruder_KitBag_option1": "Nenhuma",
+    "Sandbox_TheIntruder_KitBag_option2": "Mochila escolar",
+    "Sandbox_TheIntruder_KitBag_option3": "Bolsa de viagem",
+    "Sandbox_TheIntruder_KitBag_option4": "Mochila de trilha grande",
+
+    "Sandbox_TheIntruder_KitFood": "Quantidade de enlatados",
+    "Sandbox_TheIntruder_KitFood_tooltip": "Quantas latas de comida o invasor tem no início.",
+
+    "Sandbox_TheIntruder_KitFirstAid": "Kit de primeiros socorros",
+    "Sandbox_TheIntruder_KitFirstAid_tooltip": "Dá ao invasor algumas bandagens ao surgir.",
+
+    "Sandbox_TheIntruder_KitCustomItems": "Itens adicionais",
+    "Sandbox_TheIntruder_KitCustomItems_tooltip": "IDs de itens adicionais separados por ponto e vírgula, por exemplo Base.Pistol;Base.Bullets9mm"
+}

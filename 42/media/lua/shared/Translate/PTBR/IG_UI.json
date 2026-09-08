@@ -1,0 +1,38 @@
+{
+    "IGUI_TheIntruder_YouAre": "VOCÊ É O INVASOR",
+    "IGUI_TheIntruder_Alert": "UM INVASOR SE INFILTROU",
+
+    "IGUI_TheIntruder_Reason_Closed": "Invasão fechada pelo anfitrião.",
+    "IGUI_TheIntruder_Reason_Banned": "Você está proibido de invadir aqui.",
+    "IGUI_TheIntruder_Reason_Full": "A invasão está cheia.",
+    "IGUI_TheIntruder_Reason_Cooldown": "Você morreu. Volte em %1s.",
+    "IGUI_TheIntruder_Reason_Kicked": "Você foi expulso pelo anfitrião.",
+
+    "IGUI_TheIntruder_Opening": "Abrindo...",
+    "IGUI_TheIntruder_Scanning": "Procurando servidores públicos...",
+    "IGUI_TheIntruder_ShowAll": "Mostrar todos os servidores (depuração)",
+    "IGUI_TheIntruder_Direct": "Direto:",
+    "IGUI_TheIntruder_Refresh": "Atualizar",
+    "IGUI_TheIntruder_EditProfile": "Editar perfil",
+    "IGUI_TheIntruder_Join": "Entrar",
+    "IGUI_TheIntruder_Close": "Fechar",
+    "IGUI_TheIntruder_JoinByIP": "Entrar por IP",
+    "IGUI_TheIntruder_SelectFirst": "Selecione um servidor primeiro",
+    "IGUI_TheIntruder_EnterIP": "Digite um IP",
+    "IGUI_TheIntruder_SetProfileFirst": "Configure seu perfil primeiro (Editar perfil)",
+    "IGUI_TheIntruder_Scanned": "%1 servidores verificados, %2 com The Intruder",
+    "IGUI_TheIntruder_ShowingAll": "Mostrando %1 servidores públicos (%2 com The Intruder)",
+
+    "IGUI_TheIntruder_Name": "Nome",
+    "IGUI_TheIntruder_Password": "Senha",
+    "IGUI_TheIntruder_PasswordHint": "Deixe vazio para usar seu Steam ID como senha.",
+    "IGUI_TheIntruder_UseRelay": "Usar relay da Steam (se a conexão direta falhar)",
+    "IGUI_TheIntruder_Save": "Salvar",
+    "IGUI_TheIntruder_Cancel": "Cancelar",
+
+    "IGUI_TheIntruder_HostTitle": "Controles do anfitrião",
+    "IGUI_TheIntruder_OpeningOn": "Abertura: SIM",
+    "IGUI_TheIntruder_OpeningOff": "Abertura: NÃO",
+    "IGUI_TheIntruder_Kick": "Expulsar",
+    "IGUI_TheIntruder_Ban": "Banir"
+}

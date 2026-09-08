@@ -1,0 +1,38 @@
+{
+    "IGUI_TheIntruder_YouAre": "당신은 침입자입니다",
+    "IGUI_TheIntruder_Alert": "침입자가 잠입했습니다",
+
+    "IGUI_TheIntruder_Reason_Closed": "호스트가 침입을 닫았습니다.",
+    "IGUI_TheIntruder_Reason_Banned": "이곳에서 침입이 금지되었습니다.",
+    "IGUI_TheIntruder_Reason_Full": "침입 인원이 가득 찼습니다.",
+    "IGUI_TheIntruder_Reason_Cooldown": "당신은 사망했습니다. %1초 후에 다시 오세요.",
+    "IGUI_TheIntruder_Reason_Kicked": "호스트에게 추방되었습니다.",
+
+    "IGUI_TheIntruder_Opening": "여는 중...",
+    "IGUI_TheIntruder_Scanning": "공개 서버 검색 중...",
+    "IGUI_TheIntruder_ShowAll": "모든 서버 표시 (디버그)",
+    "IGUI_TheIntruder_Direct": "직접 접속:",
+    "IGUI_TheIntruder_Refresh": "새로고침",
+    "IGUI_TheIntruder_EditProfile": "프로필 편집",
+    "IGUI_TheIntruder_Join": "참가",
+    "IGUI_TheIntruder_Close": "닫기",
+    "IGUI_TheIntruder_JoinByIP": "IP로 참가",
+    "IGUI_TheIntruder_SelectFirst": "먼저 서버를 선택하세요",
+    "IGUI_TheIntruder_EnterIP": "IP를 입력하세요",
+    "IGUI_TheIntruder_SetProfileFirst": "먼저 프로필을 설정하세요 (프로필 편집)",
+    "IGUI_TheIntruder_Scanned": "서버 %1개 검색, The Intruder %2개 발견",
+    "IGUI_TheIntruder_ShowingAll": "공개 서버 %1개 표시 (The Intruder %2개)",
+
+    "IGUI_TheIntruder_Name": "이름",
+    "IGUI_TheIntruder_Password": "비밀번호",
+    "IGUI_TheIntruder_PasswordHint": "비워두면 Steam ID를 비밀번호로 사용합니다.",
+    "IGUI_TheIntruder_UseRelay": "Steam 릴레이 사용 (직접 접속 실패 시)",
+    "IGUI_TheIntruder_Save": "저장",
+    "IGUI_TheIntruder_Cancel": "취소",
+
+    "IGUI_TheIntruder_HostTitle": "침입자 호스트 설정",
+    "IGUI_TheIntruder_OpeningOn": "개방: 켜짐",
+    "IGUI_TheIntruder_OpeningOff": "개방: 꺼짐",
+    "IGUI_TheIntruder_Kick": "추방",
+    "IGUI_TheIntruder_Ban": "차단"
+}

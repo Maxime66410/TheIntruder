@@ -1,0 +1,36 @@
+{
+    "Sandbox_TheIntruder": "The Intruder",
+
+    "Sandbox_TheIntruder_MaxIntruders": "Максимум чужаков",
+    "Sandbox_TheIntruder_MaxIntruders_tooltip": "Сколько чужаков может находиться на сервере одновременно.",
+
+    "Sandbox_TheIntruder_SpawnDistance": "Дистанция появления (клетки)",
+    "Sandbox_TheIntruder_SpawnDistance_tooltip": "Как близко к обычному игроку появляется чужак.",
+
+    "Sandbox_TheIntruder_RespawnCooldown": "Задержка перед возвращением (секунды)",
+    "Sandbox_TheIntruder_RespawnCooldown_tooltip": "Задержка, прежде чем убитый чужак сможет напасть снова. 0 — без задержки.",
+
+    "Sandbox_TheIntruder_KitMelee": "Оружие ближнего боя",
+    "Sandbox_TheIntruder_KitMelee_tooltip": "Оружие ближнего боя, выдаваемое чужаку при появлении.",
+    "Sandbox_TheIntruder_KitMelee_option1": "Нет",
+    "Sandbox_TheIntruder_KitMelee_option2": "Случайное",
+    "Sandbox_TheIntruder_KitMelee_option3": "Бейсбольная бита",
+    "Sandbox_TheIntruder_KitMelee_option4": "Охотничий нож",
+    "Sandbox_TheIntruder_KitMelee_option5": "Монтировка",
+
+    "Sandbox_TheIntruder_KitBag": "Сумка",
+    "Sandbox_TheIntruder_KitBag_tooltip": "Сумка, выдаваемая чужаку при появлении.",
+    "Sandbox_TheIntruder_KitBag_option1": "Нет",
+    "Sandbox_TheIntruder_KitBag_option2": "Школьный рюкзак",
+    "Sandbox_TheIntruder_KitBag_option3": "Дорожная сумка",
+    "Sandbox_TheIntruder_KitBag_option4": "Большой походный рюкзак",
+
+    "Sandbox_TheIntruder_KitFood": "Количество консервов",
+    "Sandbox_TheIntruder_KitFood_tooltip": "Сколько консервов у чужака в начале.",
+
+    "Sandbox_TheIntruder_KitFirstAid": "Аптечка",
+    "Sandbox_TheIntruder_KitFirstAid_tooltip": "Выдать чужаку несколько бинтов при появлении.",
+
+    "Sandbox_TheIntruder_KitCustomItems": "Дополнительные предметы",
+    "Sandbox_TheIntruder_KitCustomItems_tooltip": "ID дополнительных предметов через точку с запятой, например Base.Pistol;Base.Bullets9mm"
+}

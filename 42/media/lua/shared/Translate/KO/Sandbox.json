@@ -1,0 +1,36 @@
+{
+    "Sandbox_TheIntruder": "The Intruder",
+
+    "Sandbox_TheIntruder_MaxIntruders": "최대 침입자 수",
+    "Sandbox_TheIntruder_MaxIntruders_tooltip": "서버에 동시에 존재할 수 있는 침입자 수입니다.",
+
+    "Sandbox_TheIntruder_SpawnDistance": "생성 거리 (타일)",
+    "Sandbox_TheIntruder_SpawnDistance_tooltip": "침입자가 일반 플레이어로부터 얼마나 가까이 생성되는지.",
+
+    "Sandbox_TheIntruder_RespawnCooldown": "재침입 대기시간 (초)",
+    "Sandbox_TheIntruder_RespawnCooldown_tooltip": "처치된 침입자가 다시 공격할 수 있기까지의 지연. 0은 지연 없음.",
+
+    "Sandbox_TheIntruder_KitMelee": "근접 무기",
+    "Sandbox_TheIntruder_KitMelee_tooltip": "생성 시 침입자에게 주어지는 근접 무기.",
+    "Sandbox_TheIntruder_KitMelee_option1": "없음",
+    "Sandbox_TheIntruder_KitMelee_option2": "무작위",
+    "Sandbox_TheIntruder_KitMelee_option3": "야구 방망이",
+    "Sandbox_TheIntruder_KitMelee_option4": "사냥용 칼",
+    "Sandbox_TheIntruder_KitMelee_option5": "쇠지렛대",
+
+    "Sandbox_TheIntruder_KitBag": "가방",
+    "Sandbox_TheIntruder_KitBag_tooltip": "생성 시 침입자에게 주어지는 가방.",
+    "Sandbox_TheIntruder_KitBag_option1": "없음",
+    "Sandbox_TheIntruder_KitBag_option2": "책가방",
+    "Sandbox_TheIntruder_KitBag_option3": "더플백",
+    "Sandbox_TheIntruder_KitBag_option4": "대형 등산 가방",
+
+    "Sandbox_TheIntruder_KitFood": "통조림 수량",
+    "Sandbox_TheIntruder_KitFood_tooltip": "침입자가 처음에 가지는 통조림 식품 수.",
+
+    "Sandbox_TheIntruder_KitFirstAid": "구급 키트",
+    "Sandbox_TheIntruder_KitFirstAid_tooltip": "생성 시 침입자에게 붕대를 지급합니다.",
+
+    "Sandbox_TheIntruder_KitCustomItems": "추가 아이템",
+    "Sandbox_TheIntruder_KitCustomItems_tooltip": "세미콜론으로 구분된 추가 아이템 ID. 예: Base.Pistol;Base.Bullets9mm"
+}
