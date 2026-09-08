@@ -15,23 +15,24 @@ end
 
 local pendingDelay = nil
 local alarmHandle = nil
-local alarmStop = nil
+local alarmStartMs = nil
+local ALARM_TOTAL_MS = 9500
+local ALARM_FADE_MS = 1500
 
 function TheIntruderNet.scheduleAnnounce()
     pendingDelay = 60
 end
 
 local function onTick()
-    if alarmStop then
-        alarmStop = alarmStop - 1
-        local fadeTicks = 90
-        if alarmHandle and alarmStop <= fadeTicks then
-            local vol = alarmStop / fadeTicks
+    if alarmStartMs then
+        local elapsed = getTimestampMs() - alarmStartMs
+        if alarmHandle and elapsed >= (ALARM_TOTAL_MS - ALARM_FADE_MS) then
+            local vol = (ALARM_TOTAL_MS - elapsed) / ALARM_FADE_MS
             if vol < 0 then vol = 0 end
             pcall(function() getSoundManager():getUIEmitter():setVolume(alarmHandle, vol) end)
         end
-        if alarmStop <= 0 then
-            alarmStop = nil
+        if elapsed >= ALARM_TOTAL_MS then
+            alarmStartMs = nil
             if alarmHandle then getSoundManager():stopUISound(alarmHandle) end
             alarmHandle = nil
         end
@@ -66,7 +67,7 @@ local function onServerCommand(module, command, args)
 
         if alarmHandle then getSoundManager():stopUISound(alarmHandle) end
         alarmHandle = getSoundManager():playUISound(ALERT_SOUND)
-        alarmStop = 570
+        alarmStartMs = getTimestampMs()
         TheIntruderBanner.show(getText("IGUI_TheIntruder_Alert"), 10, 1, 0.55, 0.1)
         TheIntruderPvp.ensureUnsafe()
 
