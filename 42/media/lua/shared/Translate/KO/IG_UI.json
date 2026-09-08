@@ -1,6 +1,7 @@
 {
     "IGUI_TheIntruder_YouAre": "당신은 침입자입니다",
     "IGUI_TheIntruder_Alert": "침입자가 잠입했습니다",
+    "IGUI_TheIntruder_PvpWarning": "서버 PvP가 꺼져 있습니다 - 침입자는 싸울 수 없습니다!",
 
     "IGUI_TheIntruder_Reason_Closed": "호스트가 침입을 닫았습니다.",
     "IGUI_TheIntruder_Reason_Banned": "이곳에서 침입이 금지되었습니다.",

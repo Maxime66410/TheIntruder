@@ -1,6 +1,7 @@
 {
     "IGUI_TheIntruder_YouAre": "あなたは侵入者だ",
     "IGUI_TheIntruder_Alert": "侵入者が潜入した",
+    "IGUI_TheIntruder_PvpWarning": "サーバーのPvPがオフです - 侵入者は戦えません！",
 
     "IGUI_TheIntruder_Reason_Closed": "ホストが侵入を閉じました。",
     "IGUI_TheIntruder_Reason_Banned": "ここでの侵入は禁止されています。",

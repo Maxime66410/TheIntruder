@@ -1,6 +1,7 @@
 {
     "IGUI_TheIntruder_YouAre": "DAVETSİZ MİSAFİR SENSİN",
     "IGUI_TheIntruder_Alert": "BİR DAVETSİZ MİSAFİR SIZDI",
+    "IGUI_TheIntruder_PvpWarning": "Sunucu PvP'si KAPALI - davetsiz misafirler savaşamaz!",
 
     "IGUI_TheIntruder_Reason_Closed": "İstila ev sahibi tarafından kapatıldı.",
     "IGUI_TheIntruder_Reason_Banned": "Buraya sızmanız yasaklandı.",

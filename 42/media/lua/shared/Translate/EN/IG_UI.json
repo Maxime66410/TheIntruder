@@ -1,6 +1,7 @@
 {
     "IGUI_TheIntruder_YouAre": "YOU ARE THE INTRUDER",
     "IGUI_TheIntruder_Alert": "AN INTRUDER HAS INFILTRATED",
+    "IGUI_TheIntruder_PvpWarning": "Server PvP is OFF - intruders cannot fight!",
 
     "IGUI_TheIntruder_Reason_Closed": "Invasion closed by the host.",
     "IGUI_TheIntruder_Reason_Banned": "You are banned from invading here.",

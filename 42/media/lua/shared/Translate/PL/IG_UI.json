@@ -1,6 +1,7 @@
 {
     "IGUI_TheIntruder_YouAre": "JESTEŚ INTRUZEM",
     "IGUI_TheIntruder_Alert": "INTRUZ PRZENIKNĄŁ DO GRY",
+    "IGUI_TheIntruder_PvpWarning": "PvP serwera jest WYŁĄCZONE - intruzi nie mogą walczyć!",
 
     "IGUI_TheIntruder_Reason_Closed": "Inwazja zamknięta przez hosta.",
     "IGUI_TheIntruder_Reason_Banned": "Masz zakaz inwazji tutaj.",

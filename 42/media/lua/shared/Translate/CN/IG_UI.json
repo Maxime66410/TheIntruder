@@ -1,6 +1,7 @@
 {
     "IGUI_TheIntruder_YouAre": "你是入侵者",
     "IGUI_TheIntruder_Alert": "有入侵者潜入了",
+    "IGUI_TheIntruder_PvpWarning": "服务器 PvP 已关闭 - 入侵者无法战斗！",
 
     "IGUI_TheIntruder_Reason_Closed": "房主已关闭入侵。",
     "IGUI_TheIntruder_Reason_Banned": "你已被禁止在此入侵。",

@@ -1,6 +1,7 @@
 {
     "IGUI_TheIntruder_YouAre": "DU BIST DER EINDRINGLING",
     "IGUI_TheIntruder_Alert": "EIN EINDRINGLING IST EINGEDRUNGEN",
+    "IGUI_TheIntruder_PvpWarning": "Server-PvP ist AUS - Eindringlinge können nicht kämpfen!",
 
     "IGUI_TheIntruder_Reason_Closed": "Invasion vom Host geschlossen.",
     "IGUI_TheIntruder_Reason_Banned": "Du bist hier vom Eindringen verbannt.",

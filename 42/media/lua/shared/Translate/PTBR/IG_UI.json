@@ -1,6 +1,7 @@
 {
     "IGUI_TheIntruder_YouAre": "VOCÊ É O INVASOR",
     "IGUI_TheIntruder_Alert": "UM INVASOR SE INFILTROU",
+    "IGUI_TheIntruder_PvpWarning": "O PvP do servidor está DESLIGADO - invasores não podem lutar!",
 
     "IGUI_TheIntruder_Reason_Closed": "Invasão fechada pelo anfitrião.",
     "IGUI_TheIntruder_Reason_Banned": "Você está proibido de invadir aqui.",

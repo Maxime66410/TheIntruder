@@ -13,6 +13,7 @@ local function resolveIntruder()
     if TheIntruderConfig.isIntruderName(username) then
         TheIntruderBanner.show(getText("IGUI_TheIntruder_YouAre"), 10)
         TheIntruderNet.scheduleAnnounce()
+        TheIntruderPvp.ensureUnsafe()
     end
     return true
 end

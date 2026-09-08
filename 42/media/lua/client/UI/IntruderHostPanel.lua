@@ -18,8 +18,16 @@ function TheIntruderHostPanel:createChildren()
     self.openBtn:initialise()
     self:addChild(self.openBtn)
 
-    -- Intruder list
     local listY = top + btnH + 8
+    if not getServerOptions():getBoolean("PVP") then
+        self.pvpWarn = ISLabel:new(pad, top + btnH + 6, 16, getText("IGUI_TheIntruder_PvpWarning"),
+            1, 0.3, 0.3, 1, UIFont.Small, true)
+        self.pvpWarn:initialise()
+        self:addChild(self.pvpWarn)
+        listY = top + btnH + 28
+    end
+
+    -- Intruder list
     local listH = by - listY - 8
     self.list = ISScrollingListBox:new(pad, listY, w - pad * 2, listH)
     self.list:initialise()

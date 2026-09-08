@@ -1,6 +1,7 @@
 {
     "IGUI_TheIntruder_YouAre": "ВЫ — ЧУЖАК",
     "IGUI_TheIntruder_Alert": "ЧУЖАК ПРОНИК В ИГРУ",
+    "IGUI_TheIntruder_PvpWarning": "PvP на сервере ВЫКЛ - чужаки не могут драться!",
 
     "IGUI_TheIntruder_Reason_Closed": "Вторжение закрыто хостом.",
     "IGUI_TheIntruder_Reason_Banned": "Вам запрещено вторгаться сюда.",
