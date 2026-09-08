@@ -14,7 +14,7 @@ function TheIntruderHostPanel:createChildren()
     local by = self.height - btnH - pad
 
     -- Opening toggle
-    self.openBtn = ISButton:new(pad, top, w - pad * 2, btnH, "Opening: ...", self, TheIntruderHostPanel.onToggleOpen)
+    self.openBtn = ISButton:new(pad, top, w - pad * 2, btnH, getText("IGUI_TheIntruder_OpeningOn"), self, TheIntruderHostPanel.onToggleOpen)
     self.openBtn:initialise()
     self:addChild(self.openBtn)
 
@@ -31,15 +31,15 @@ function TheIntruderHostPanel:createChildren()
 
     -- Bottom buttons
     local btnW = 100
-    self.kickBtn = ISButton:new(pad, by, btnW, btnH, "Kick", self, TheIntruderHostPanel.onKick)
+    self.kickBtn = ISButton:new(pad, by, btnW, btnH, getText("IGUI_TheIntruder_Kick"), self, TheIntruderHostPanel.onKick)
     self.kickBtn:initialise()
     self:addChild(self.kickBtn)
 
-    self.banBtn = ISButton:new(pad + btnW + 10, by, btnW, btnH, "Ban", self, TheIntruderHostPanel.onBan)
+    self.banBtn = ISButton:new(pad + btnW + 10, by, btnW, btnH, getText("IGUI_TheIntruder_Ban"), self, TheIntruderHostPanel.onBan)
     self.banBtn:initialise()
     self:addChild(self.banBtn)
 
-    self.closeBtn = ISButton:new(w - btnW - pad, by, btnW, btnH, "Close", self, TheIntruderHostPanel.onClose)
+    self.closeBtn = ISButton:new(w - btnW - pad, by, btnW, btnH, getText("IGUI_TheIntruder_Close"), self, TheIntruderHostPanel.onClose)
     self.closeBtn:initialise()
     self:addChild(self.closeBtn)
 
@@ -48,7 +48,7 @@ function TheIntruderHostPanel:createChildren()
 end
 
 function TheIntruderHostPanel:refreshFromState()
-    self.openBtn:setTitle("Opening: " .. (TheIntruderHost.open and "ON" or "OFF"))
+    self.openBtn:setTitle(getText(TheIntruderHost.open and "IGUI_TheIntruder_OpeningOn" or "IGUI_TheIntruder_OpeningOff"))
     local prev = self.list.items[self.list.selected]
     local prevName = prev and prev.item
     self.list:clear()
@@ -100,7 +100,7 @@ function TheIntruderHostPanel.open()
     local x = (getCore():getScreenWidth() - w) / 2
     local y = (getCore():getScreenHeight() - h) / 2
     local win = TheIntruderHostPanel:new(x, y, w, h)
-    win.title = "Intruder Host Controls"
+    win.title = getText("IGUI_TheIntruder_HostTitle")
     win:initialise()
     win:addToUIManager()
     win:setAlwaysOnTop(true)

@@ -53,17 +53,17 @@ local function onClientCommand(module, command, player, args)
     elseif command == "hostToggleOpen" then
         TheIntruderState.setOpen(not TheIntruderState.isOpen())
         if not TheIntruderState.isOpen() then
-            kickAllIntruders("host closed the invasion")
+            kickAllIntruders("closed")
         end
         sendState(player)
     elseif command == "hostKick" and args and args.name then
         local target = findOnlineByName(args.name)
-        if target then sendServerCommand(target, MODULE, "rejected", { reason = "kicked by host" }) end
+        if target then sendServerCommand(target, MODULE, "rejected", { reason = "kicked" }) end
         sendState(player)
     elseif command == "hostBan" and args and args.name then
         TheIntruderState.setBanned(args.name, true)
         local target = findOnlineByName(args.name)
-        if target then sendServerCommand(target, MODULE, "rejected", { reason = "banned by host" }) end
+        if target then sendServerCommand(target, MODULE, "rejected", { reason = "banned" }) end
         sendState(player)
     end
 end

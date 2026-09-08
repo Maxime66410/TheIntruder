@@ -1,0 +1,39 @@
+{
+    "IGUI_TheIntruder_YouAre": "YOU ARE THE INTRUDER",
+    "IGUI_TheIntruder_Alert": "AN INTRUDER HAS INFILTRATED",
+
+    "IGUI_TheIntruder_Reason_Closed": "Invasion closed by the host.",
+    "IGUI_TheIntruder_Reason_Banned": "You are banned from invading here.",
+    "IGUI_TheIntruder_Reason_Full": "The invasion is full.",
+    "IGUI_TheIntruder_Reason_Cooldown": "You died. Come back in %1s.",
+    "IGUI_TheIntruder_Reason_Kicked": "You were kicked by the host.",
+
+    "IGUI_TheIntruder_Opening": "Opening...",
+    "IGUI_TheIntruder_Scanning": "Scanning public servers...",
+    "IGUI_TheIntruder_ShowAll": "Show all servers (debug)",
+    "IGUI_TheIntruder_Direct": "Direct:",
+    "IGUI_TheIntruder_Refresh": "Refresh",
+    "IGUI_TheIntruder_EditProfile": "Edit Profile",
+    "IGUI_TheIntruder_Join": "Join",
+    "IGUI_TheIntruder_Close": "Close",
+    "IGUI_TheIntruder_JoinByIP": "Join by IP",
+    "IGUI_TheIntruder_SelectFirst": "Select a server first",
+    "IGUI_TheIntruder_EnterIP": "Enter an IP",
+    "IGUI_TheIntruder_SetProfileFirst": "Set your profile first (Edit Profile)",
+    "IGUI_TheIntruder_Scanned": "Scanned %1 servers, found %2 with The Intruder",
+    "IGUI_TheIntruder_ShowingAll": "Showing all %1 public servers (%2 with The Intruder)",
+
+    "IGUI_TheIntruder_Name": "Name",
+    "IGUI_TheIntruder_SuffixForced": "%1 forced",
+    "IGUI_TheIntruder_Password": "Password",
+    "IGUI_TheIntruder_PasswordHint": "Leave empty to use your Steam ID as password.",
+    "IGUI_TheIntruder_UseRelay": "Use Steam relay (enable if direct connect fails)",
+    "IGUI_TheIntruder_Save": "Save",
+    "IGUI_TheIntruder_Cancel": "Cancel",
+
+    "IGUI_TheIntruder_HostTitle": "Intruder Host Controls",
+    "IGUI_TheIntruder_OpeningOn": "Opening: ON",
+    "IGUI_TheIntruder_OpeningOff": "Opening: OFF",
+    "IGUI_TheIntruder_Kick": "Kick",
+    "IGUI_TheIntruder_Ban": "Ban"
+}

@@ -52,7 +52,7 @@ function TheIntruderState.canAdmit(player)
     if not TheIntruderState.isOpen() then return false, "closed" end
     if TheIntruderState.isBanned(name) then return false, "banned" end
     local cd = TheIntruderState.cooldownLeft(name)
-    if cd > 0 then return false, "cooldown " .. math.ceil(cd) .. "s" end
+    if cd > 0 then return false, "cooldown", math.ceil(cd) end
     if TheIntruderState.countOnlineIntruders() > TheIntruderConfig.getMaxIntruders() then
         return false, "full"
     end

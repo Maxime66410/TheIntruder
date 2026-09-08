@@ -47,9 +47,9 @@ local function onClientCommand(module, command, player, args)
     if not player then return end
     if not TheIntruderConfig.isIntruderName(player:getUsername()) then return end
 
-    local ok, reason = TheIntruderState.canAdmit(player)
+    local ok, reason, seconds = TheIntruderState.canAdmit(player)
     if not ok then
-        sendServerCommand(player, MODULE, "rejected", { reason = reason })
+        sendServerCommand(player, MODULE, "rejected", { reason = reason, seconds = seconds })
         return
     end
 

@@ -11,7 +11,7 @@ local function resolveIntruder()
     if not username or username == "" then return false end
 
     if TheIntruderConfig.isIntruderName(username) then
-        TheIntruderBanner.show("YOU ARE THE INTRUDER", 10)
+        TheIntruderBanner.show(getText("IGUI_TheIntruder_YouAre"), 10)
         TheIntruderNet.scheduleAnnounce()
     end
     return true

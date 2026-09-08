@@ -20,7 +20,7 @@ function TheIntruderWindow:createChildren()
     local listY = top + 22
     local listH = tickY - listY - 8
 
-    self.statusLabel = ISLabel:new(pad, top, 18, "Opening...", 1, 1, 1, 1, UIFont.Small, true)
+    self.statusLabel = ISLabel:new(pad, top, 18, getText("IGUI_TheIntruder_Opening"), 1, 1, 1, 1, UIFont.Small, true)
     self.statusLabel:initialise()
     self:addChild(self.statusLabel)
 
@@ -34,10 +34,10 @@ function TheIntruderWindow:createChildren()
 
     self.showAllTick = ISTickBox:new(pad, tickY, 20, 20, "", nil, nil)
     self.showAllTick:initialise()
-    self.showAllTick:addOption("Show all servers (debug)")
+    self.showAllTick:addOption(getText("IGUI_TheIntruder_ShowAll"))
     self:addChild(self.showAllTick)
 
-    local dcLabel = ISLabel:new(pad, dcY, 18, "Direct:", 1, 1, 1, 1, UIFont.Small, true)
+    local dcLabel = ISLabel:new(pad, dcY, 18, getText("IGUI_TheIntruder_Direct"), 1, 1, 1, 1, UIFont.Small, true)
     dcLabel:initialise()
     self:addChild(dcLabel)
 
@@ -51,24 +51,24 @@ function TheIntruderWindow:createChildren()
     self.portEntry:instantiate()
     self:addChild(self.portEntry)
 
-    self.joinIpBtn = ISButton:new(pad + 293, dcY - 3, 120, btnH, "Join by IP", self, TheIntruderWindow.onClickJoinIP)
+    self.joinIpBtn = ISButton:new(pad + 293, dcY - 3, 120, btnH, getText("IGUI_TheIntruder_JoinByIP"), self, TheIntruderWindow.onClickJoinIP)
     self.joinIpBtn:initialise()
     self:addChild(self.joinIpBtn)
 
     local btnW = 110
-    self.refreshBtn = ISButton:new(pad, by, btnW, btnH, "Refresh", self, TheIntruderWindow.onClickRefresh)
+    self.refreshBtn = ISButton:new(pad, by, btnW, btnH, getText("IGUI_TheIntruder_Refresh"), self, TheIntruderWindow.onClickRefresh)
     self.refreshBtn:initialise()
     self:addChild(self.refreshBtn)
 
-    self.editBtn = ISButton:new(pad + btnW + 10, by, btnW, btnH, "Edit Profile", self, TheIntruderWindow.onClickEditProfile)
+    self.editBtn = ISButton:new(pad + btnW + 10, by, btnW, btnH, getText("IGUI_TheIntruder_EditProfile"), self, TheIntruderWindow.onClickEditProfile)
     self.editBtn:initialise()
     self:addChild(self.editBtn)
 
-    self.joinBtn = ISButton:new(w - btnW * 2 - 20, by, btnW, btnH, "Join", self, TheIntruderWindow.onClickJoin)
+    self.joinBtn = ISButton:new(w - btnW * 2 - 20, by, btnW, btnH, getText("IGUI_TheIntruder_Join"), self, TheIntruderWindow.onClickJoin)
     self.joinBtn:initialise()
     self:addChild(self.joinBtn)
 
-    self.closeBtn = ISButton:new(w - btnW - pad, by, btnW, btnH, "Close", self, TheIntruderWindow.onClickClose)
+    self.closeBtn = ISButton:new(w - btnW - pad, by, btnW, btnH, getText("IGUI_TheIntruder_Close"), self, TheIntruderWindow.onClickClose)
     self.closeBtn:initialise()
     self:addChild(self.closeBtn)
 end
@@ -77,7 +77,7 @@ function TheIntruderWindow:doRefresh()
     self.queried = {}
     self.lastSig = nil
     self.list:clear()
-    self.statusLabel.name = "Scanning public servers..."
+    self.statusLabel.name = getText("IGUI_TheIntruder_Scanning")
     local mp = MainScreen.instance and MainScreen.instance.multiplayer
     if mp then
         mp:requestServerList()
@@ -152,10 +152,9 @@ function TheIntruderWindow:scanAndPopulate()
     end
 
     if showAll then
-        self.statusLabel.name = "Showing all " .. total .. " public servers (" ..
-            self:countIntruder(matches) .. " with The Intruder)"
+        self.statusLabel.name = getText("IGUI_TheIntruder_ShowingAll", total, self:countIntruder(matches))
     else
-        self.statusLabel.name = "Scanned " .. total .. " servers, found " .. #matches .. " with The Intruder"
+        self.statusLabel.name = getText("IGUI_TheIntruder_Scanned", total, #matches)
     end
 end
 
@@ -170,7 +169,7 @@ end
 function TheIntruderWindow:connectAsIntruder(ip, port, serverPwd, loadingBg, localIP)
     TheIntruderProfile.load()
     if not TheIntruderProfile.name or TheIntruderProfile.name:trim() == "" then
-        self.statusLabel.name = "Set your profile first (Edit Profile)"
+        self.statusLabel.name = getText("IGUI_TheIntruder_SetProfileFirst")
         TheIntruderEditProfile.open()
         return
     end
@@ -193,7 +192,7 @@ end
 function TheIntruderWindow:onClickJoin()
     local sel = self.list.items[self.list.selected]
     if not sel then
-        self.statusLabel.name = "Select a server first"
+        self.statusLabel.name = getText("IGUI_TheIntruder_SelectFirst")
         return
     end
     local s = sel.item.server
@@ -205,7 +204,7 @@ end
 function TheIntruderWindow:onClickJoinIP()
     local ip = self.ipEntry:getText()
     if not ip or ip:trim() == "" then
-        self.statusLabel.name = "Enter an IP"
+        self.statusLabel.name = getText("IGUI_TheIntruder_EnterIP")
         return
     end
     local port = self.portEntry:getText()

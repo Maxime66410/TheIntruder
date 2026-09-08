@@ -23,7 +23,7 @@ local function onClientCommand(module, command, player, args)
 
     local cd = TheIntruderConfig.getRespawnCooldown()
     if cd > 0 then
-        sendServerCommand(player, MODULE, "rejected", { reason = "died, cooldown " .. cd .. "s" })
+        sendServerCommand(player, MODULE, "rejected", { reason = "cooldown", seconds = cd })
     end
 end
 

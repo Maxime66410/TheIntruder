@@ -31,6 +31,15 @@ end
 
 Events.OnTick.Add(onTick)
 
+local function reasonText(code, seconds)
+    if code == "closed" then return getText("IGUI_TheIntruder_Reason_Closed") end
+    if code == "banned" then return getText("IGUI_TheIntruder_Reason_Banned") end
+    if code == "full" then return getText("IGUI_TheIntruder_Reason_Full") end
+    if code == "kicked" then return getText("IGUI_TheIntruder_Reason_Kicked") end
+    if code == "cooldown" then return getText("IGUI_TheIntruder_Reason_Cooldown", tostring(seconds or 0)) end
+    return getText("IGUI_TheIntruder_Reason_Closed")
+end
+
 local function onServerCommand(module, command, args)
     if module ~= MODULE then return end
 
@@ -39,19 +48,19 @@ local function onServerCommand(module, command, args)
         if p and TheIntruderConfig.isIntruderName(p:getUsername()) then return end
 
         getSoundManager():playUISound(ALERT_SOUND)
-        TheIntruderBanner.show("AN INTRUDER HAS INFILTRATED", 10, 1, 0.55, 0.1)
+        TheIntruderBanner.show(getText("IGUI_TheIntruder_Alert"), 10, 1, 0.55, 0.1)
 
     elseif command == "teleportNear" and args then
         local p = getSpecificPlayer(0)
         if p then p:teleportTo(args.x, args.y, args.z) end
 
     elseif command == "rejected" then
-        local reason = (args and args.reason) or "unavailable"
         local p = getSpecificPlayer(0)
         if p then p:setBlockMovement(true) end
+        local msg = reasonText(args and args.reason, args and args.seconds)
         local sw, sh = getCore():getScreenWidth(), getCore():getScreenHeight()
         local modal = ISModalDialog:new(sw / 2 - 175, sh / 2 - 75, 350, 150,
-            "Invasion unavailable: " .. reason, false, nil, function() forceDisconnect() end)
+            msg, false, nil, function() forceDisconnect() end)
         modal:initialise()
         modal:addToUIManager()
     end

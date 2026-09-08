@@ -15,7 +15,7 @@ function TheIntruderEditProfile:createChildren()
     local entryW = self.width - entryX - pad
 
     -- Name
-    local nameLabel = ISLabel:new(pad, top, 18, "Name", 1, 1, 1, 1, UIFont.Medium, true)
+    local nameLabel = ISLabel:new(pad, top, 18, getText("IGUI_TheIntruder_Name"), 1, 1, 1, 1, UIFont.Medium, true)
     nameLabel:initialise()
     self:addChild(nameLabel)
 
@@ -31,7 +31,7 @@ function TheIntruderEditProfile:createChildren()
 
     -- Password
     local passY = top + 36
-    local passLabel = ISLabel:new(pad, passY, 18, "Password", 1, 1, 1, 1, UIFont.Medium, true)
+    local passLabel = ISLabel:new(pad, passY, 18, getText("IGUI_TheIntruder_Password"), 1, 1, 1, 1, UIFont.Medium, true)
     passLabel:initialise()
     self:addChild(passLabel)
 
@@ -43,7 +43,7 @@ function TheIntruderEditProfile:createChildren()
 
     -- Hint
     local hintY = passY + 28
-    local hint = ISLabel:new(pad, hintY, 16, "Leave empty to use your Steam ID as password.",
+    local hint = ISLabel:new(pad, hintY, 16, getText("IGUI_TheIntruder_PasswordHint"),
         0.6, 0.6, 0.6, 1, UIFont.Small, true)
     hint:initialise()
     self:addChild(hint)
@@ -52,17 +52,17 @@ function TheIntruderEditProfile:createChildren()
     local relayY = hintY + 26
     self.relayTick = ISTickBox:new(pad, relayY, 20, 20, "", nil, nil)
     self.relayTick:initialise()
-    self.relayTick:addOption("Use Steam relay (enable if direct connect fails)")
+    self.relayTick:addOption(getText("IGUI_TheIntruder_UseRelay"))
     self:addChild(self.relayTick)
 
     -- Buttons
     local btnW, btnH = 110, 25
     local by = self.height - btnH - pad
-    self.saveBtn = ISButton:new(self.width / 2 - btnW - 6, by, btnW, btnH, "Save", self, TheIntruderEditProfile.onClickSave)
+    self.saveBtn = ISButton:new(self.width / 2 - btnW - 6, by, btnW, btnH, getText("IGUI_TheIntruder_Save"), self, TheIntruderEditProfile.onClickSave)
     self.saveBtn:initialise()
     self:addChild(self.saveBtn)
 
-    self.cancelBtn = ISButton:new(self.width / 2 + 6, by, btnW, btnH, "Cancel", self, TheIntruderEditProfile.onClickCancel)
+    self.cancelBtn = ISButton:new(self.width / 2 + 6, by, btnW, btnH, getText("IGUI_TheIntruder_Cancel"), self, TheIntruderEditProfile.onClickCancel)
     self.cancelBtn:initialise()
     self:addChild(self.cancelBtn)
 
@@ -100,7 +100,7 @@ function TheIntruderEditProfile.open()
     local y = (getCore():getScreenHeight() - h) / 2
 
     local win = TheIntruderEditProfile:new(x, y, w, h)
-    win.title = "Edit Profile"
+    win.title = getText("IGUI_TheIntruder_EditProfile")
     win:initialise()
     win:addToUIManager()
     win:setAlwaysOnTop(true)
