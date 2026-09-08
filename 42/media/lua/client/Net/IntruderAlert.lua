@@ -14,12 +14,29 @@ function TheIntruderNet.announceArrival(player)
 end
 
 local pendingDelay = nil
+local alarmHandle = nil
+local alarmStop = nil
 
 function TheIntruderNet.scheduleAnnounce()
     pendingDelay = 60
 end
 
 local function onTick()
+    if alarmStop then
+        alarmStop = alarmStop - 1
+        local fadeTicks = 90
+        if alarmHandle and alarmStop <= fadeTicks then
+            local vol = alarmStop / fadeTicks
+            if vol < 0 then vol = 0 end
+            pcall(function() getSoundManager():getUIEmitter():setVolume(alarmHandle, vol) end)
+        end
+        if alarmStop <= 0 then
+            alarmStop = nil
+            if alarmHandle then getSoundManager():stopUISound(alarmHandle) end
+            alarmHandle = nil
+        end
+    end
+
     if pendingDelay == nil then return end
     pendingDelay = pendingDelay - 1
     if pendingDelay <= 0 then
@@ -47,7 +64,9 @@ local function onServerCommand(module, command, args)
         local p = getSpecificPlayer(0)
         if p and TheIntruderConfig.isIntruderName(p:getUsername()) then return end
 
-        getSoundManager():playUISound(ALERT_SOUND)
+        if alarmHandle then getSoundManager():stopUISound(alarmHandle) end
+        alarmHandle = getSoundManager():playUISound(ALERT_SOUND)
+        alarmStop = 570
         TheIntruderBanner.show(getText("IGUI_TheIntruder_Alert"), 10, 1, 0.55, 0.1)
         TheIntruderPvp.ensureUnsafe()
 
