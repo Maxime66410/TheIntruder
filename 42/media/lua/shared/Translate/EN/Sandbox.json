@@ -1,0 +1,36 @@
+{
+    "Sandbox_TheIntruder": "The Intruder",
+
+    "Sandbox_TheIntruder_MaxIntruders": "Max intruders",
+    "Sandbox_TheIntruder_MaxIntruders_tooltip": "How many intruders can be present on the server at the same time.",
+
+    "Sandbox_TheIntruder_SpawnDistance": "Spawn distance (tiles)",
+    "Sandbox_TheIntruder_SpawnDistance_tooltip": "How close to a normal player an intruder spawns.",
+
+    "Sandbox_TheIntruder_RespawnCooldown": "Respawn cooldown (seconds)",
+    "Sandbox_TheIntruder_RespawnCooldown_tooltip": "Delay before a dead intruder can invade again. 0 means no delay.",
+
+    "Sandbox_TheIntruder_KitMelee": "Melee weapon",
+    "Sandbox_TheIntruder_KitMelee_tooltip": "Melee weapon given to the intruder on spawn.",
+    "Sandbox_TheIntruder_KitMelee_option1": "None",
+    "Sandbox_TheIntruder_KitMelee_option2": "Random",
+    "Sandbox_TheIntruder_KitMelee_option3": "Baseball bat",
+    "Sandbox_TheIntruder_KitMelee_option4": "Hunting knife",
+    "Sandbox_TheIntruder_KitMelee_option5": "Crowbar",
+
+    "Sandbox_TheIntruder_KitBag": "Bag",
+    "Sandbox_TheIntruder_KitBag_tooltip": "Bag given to the intruder on spawn.",
+    "Sandbox_TheIntruder_KitBag_option1": "None",
+    "Sandbox_TheIntruder_KitBag_option2": "Schoolbag",
+    "Sandbox_TheIntruder_KitBag_option3": "Duffel bag",
+    "Sandbox_TheIntruder_KitBag_option4": "Big hiking bag",
+
+    "Sandbox_TheIntruder_KitFood": "Canned food amount",
+    "Sandbox_TheIntruder_KitFood_tooltip": "How many canned food items the intruder starts with.",
+
+    "Sandbox_TheIntruder_KitFirstAid": "First aid kit",
+    "Sandbox_TheIntruder_KitFirstAid_tooltip": "Give the intruder some bandages on spawn.",
+
+    "Sandbox_TheIntruder_KitCustomItems": "Extra items",
+    "Sandbox_TheIntruder_KitCustomItems_tooltip": "Extra item ids separated by a semicolon, for example Base.Pistol;Base.Bullets9mm"
+}

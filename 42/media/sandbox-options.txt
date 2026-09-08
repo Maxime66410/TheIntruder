@@ -1,0 +1,55 @@
+VERSION = 1,
+
+/* Core intruder settings */
+
+option TheIntruder.MaxIntruders
+{
+    type = integer, min = 1, max = 32, default = 2,
+    page = TheIntruder, translation = TheIntruder_MaxIntruders,
+}
+
+option TheIntruder.SpawnDistance
+{
+    type = integer, min = 5, max = 100, default = 15,
+    page = TheIntruder, translation = TheIntruder_SpawnDistance,
+}
+
+option TheIntruder.RespawnCooldown
+{
+    type = integer, min = 0, max = 3600, default = 120,
+    page = TheIntruder, translation = TheIntruder_RespawnCooldown,
+}
+
+/* Intruder loadout */
+
+option TheIntruder.KitMelee
+{
+    type = enum, numValues = 5, default = 2,
+    page = TheIntruder, translation = TheIntruder_KitMelee,
+    valueTranslation = TheIntruder_KitMelee,
+}
+
+option TheIntruder.KitBag
+{
+    type = enum, numValues = 4, default = 2,
+    page = TheIntruder, translation = TheIntruder_KitBag,
+    valueTranslation = TheIntruder_KitBag,
+}
+
+option TheIntruder.KitFood
+{
+    type = integer, min = 0, max = 10, default = 2,
+    page = TheIntruder, translation = TheIntruder_KitFood,
+}
+
+option TheIntruder.KitFirstAid
+{
+    type = boolean, default = true,
+    page = TheIntruder, translation = TheIntruder_KitFirstAid,
+}
+
+option TheIntruder.KitCustomItems
+{
+    type = string, default = ,
+    page = TheIntruder, translation = TheIntruder_KitCustomItems,
+}
