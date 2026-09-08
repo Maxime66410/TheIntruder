@@ -1,5 +1,7 @@
 {
     "Sandbox_TheIntruder": "The Intruder",
+    "Sandbox_TheIntruder_ForcePvp": "Принудительный PvP при появлении чужака",
+    "Sandbox_TheIntruder_ForcePvp_tooltip": "Когда появляется чужак, отключает безопасность у всех, чтобы можно было драться. Требует опцию PVP на сервере.",
 
     "Sandbox_TheIntruder_MaxIntruders": "Максимум чужаков",
     "Sandbox_TheIntruder_MaxIntruders_tooltip": "Сколько чужаков может находиться на сервере одновременно.",

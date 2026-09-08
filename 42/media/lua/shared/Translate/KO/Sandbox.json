@@ -1,5 +1,7 @@
 {
     "Sandbox_TheIntruder": "The Intruder",
+    "Sandbox_TheIntruder_ForcePvp": "침입자 도착 시 PvP 강제",
+    "Sandbox_TheIntruder_ForcePvp_tooltip": "침입자가 도착하면 모두의 안전을 꺼서 싸울 수 있게 합니다. 서버 PVP 옵션이 필요합니다.",
 
     "Sandbox_TheIntruder_MaxIntruders": "최대 침입자 수",
     "Sandbox_TheIntruder_MaxIntruders_tooltip": "서버에 동시에 존재할 수 있는 침입자 수입니다.",

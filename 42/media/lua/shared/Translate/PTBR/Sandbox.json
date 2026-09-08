@@ -1,5 +1,7 @@
 {
     "Sandbox_TheIntruder": "The Intruder",
+    "Sandbox_TheIntruder_ForcePvp": "Forçar PvP na chegada de um invasor",
+    "Sandbox_TheIntruder_ForcePvp_tooltip": "Quando um invasor chega, desativa a segurança de todos para que possam lutar. Requer a opção PVP do servidor.",
 
     "Sandbox_TheIntruder_MaxIntruders": "Máximo de invasores",
     "Sandbox_TheIntruder_MaxIntruders_tooltip": "Quantos invasores podem estar no servidor ao mesmo tempo.",

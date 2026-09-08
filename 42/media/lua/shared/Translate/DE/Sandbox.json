@@ -1,5 +1,7 @@
 {
     "Sandbox_TheIntruder": "The Intruder",
+    "Sandbox_TheIntruder_ForcePvp": "PvP bei Ankunft eines Eindringlings erzwingen",
+    "Sandbox_TheIntruder_ForcePvp_tooltip": "Wenn ein Eindringling ankommt, wird die Sicherheit für alle deaktiviert, damit sie kämpfen können. Erfordert die Server-PVP-Option.",
 
     "Sandbox_TheIntruder_MaxIntruders": "Maximale Eindringlinge",
     "Sandbox_TheIntruder_MaxIntruders_tooltip": "Wie viele Eindringlinge gleichzeitig auf dem Server sein dürfen.",

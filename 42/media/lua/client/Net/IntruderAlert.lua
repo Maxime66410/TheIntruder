@@ -49,6 +49,7 @@ local function onServerCommand(module, command, args)
 
         getSoundManager():playUISound(ALERT_SOUND)
         TheIntruderBanner.show(getText("IGUI_TheIntruder_Alert"), 10, 1, 0.55, 0.1)
+        TheIntruderPvp.ensureUnsafe()
 
     elseif command == "teleportNear" and args then
         local p = getSpecificPlayer(0)

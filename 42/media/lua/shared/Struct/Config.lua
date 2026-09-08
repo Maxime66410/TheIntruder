@@ -33,6 +33,10 @@ function TheIntruderConfig.getRespawnCooldown()
     return sv().RespawnCooldown or 120
 end
 
+function TheIntruderConfig.getForcePvp()
+    return sv().ForcePvp ~= false
+end
+
 function TheIntruderConfig.buildKitItems()
     local o = sv()
     local items = {}

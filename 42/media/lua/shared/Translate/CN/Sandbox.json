@@ -1,5 +1,7 @@
 {
     "Sandbox_TheIntruder": "The Intruder",
+    "Sandbox_TheIntruder_ForcePvp": "入侵者到来时强制 PvP",
+    "Sandbox_TheIntruder_ForcePvp_tooltip": "当入侵者到来时，关闭所有人的安全模式以便战斗。需要服务器 PVP 选项。",
 
     "Sandbox_TheIntruder_MaxIntruders": "最大入侵者数量",
     "Sandbox_TheIntruder_MaxIntruders_tooltip": "服务器上同时可存在的入侵者数量。",

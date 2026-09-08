@@ -1,5 +1,7 @@
 {
     "Sandbox_TheIntruder": "The Intruder",
+    "Sandbox_TheIntruder_ForcePvp": "侵入者出現時にPvPを強制",
+    "Sandbox_TheIntruder_ForcePvp_tooltip": "侵入者が現れると全員のセーフティを解除して戦えるようにします。サーバーのPVPオプションが必要です。",
 
     "Sandbox_TheIntruder_MaxIntruders": "侵入者の最大数",
     "Sandbox_TheIntruder_MaxIntruders_tooltip": "サーバーに同時に存在できる侵入者の数。",

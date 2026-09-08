@@ -7,6 +7,7 @@ TheIntruderPvp = TheIntruderPvp or {}
 local tries = nil
 
 function TheIntruderPvp.ensureUnsafe()
+    if not TheIntruderConfig.getForcePvp() then return end
     tries = 300
 end
 
